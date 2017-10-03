@@ -10,7 +10,7 @@ notFound.style.display = 'none';
 contentList.parentNode.appendChild(notFound);
 
 const getItemsList = () => {
-  return contentList.querySelectorAll('li:not(.disabled)');
+  return contentList.querySelectorAll('li:not(.hidden)');
 }
 
 const appendPageLinks = itemsList => {
